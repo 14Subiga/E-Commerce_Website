@@ -1,0 +1,845 @@
+/*==================================================
+                MEN LISTING PAGE
+==================================================*/
+
+/*==========================
+    GLOBAL
+==========================*/
+
+.product-listing
+{
+    width: 100%; 
+    height: auto;  
+    padding:30px 80px;
+}
+
+.product-listing a{
+    text-decoration:none;
+}
+
+.product-listing img{
+    width:100%;
+    display:block;
+}
+
+/*==========================
+    FILTER SIDEBAR
+==========================*/
+
+.filter-sidebar{
+    position:sticky;
+    top:100px;
+    margin-right:16px;
+    
+    
+}
+
+.product-count{
+    font-size:12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: .2px;
+    color:#000000;
+    margin-bottom:35px;
+    font-weight:500;
+}
+
+/*==========================
+    FILTER BOX
+==========================*/
+
+.filter-box{
+    border-top:1px solid #e5e5e5;
+    padding:16px 0px;
+}
+
+.filter-box:last-child{
+    border-bottom:1px solid #e5e5e5;
+}
+
+.filter-heading{
+    font-size:14px;
+    font-weight:600;
+    color:#262626;
+    line-height: 21px;
+    letter-spacing: 0.42px;
+    margin-bottom:17px;
+}
+
+/*==========================
+    CATEGORY
+==========================*/
+
+.filter-box label{
+    display:flex;
+    align-items:flex-start;
+    gap:10px;
+    margin-bottom:15px;
+    cursor:pointer;
+    font-size:12px;
+    font-weight: 400;
+    color:#000000;
+    line-height:16px;
+}
+
+.filter-box input[type="checkbox"]{
+    width:16px;
+    height:16px;
+    cursor:pointer;
+}
+
+.view-more{
+    display:inline-block;
+    margin-top:12px;
+    color:#4C4C4B;
+    font-size:12px;
+    font-weight:400;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    
+}
+
+.view-more:hover{
+    color:#000;
+    text-decoration:underline;
+}
+
+/*==========================
+    COLOR FILTER
+==========================*/
+
+.color{
+    width:24px;
+    height:24px;
+    border-radius:50%;
+    display:inline-block;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.color:hover{
+    transform:scale(1.15);
+}
+
+.color-grid p,
+.filter-box .row p{
+    font-size:12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    margin-top:8px;
+    margin-bottom:0;
+    color:#000000;
+}
+
+/*==========================
+    COLOR CLASSES
+==========================*/
+
+.black{
+    background:#1e1e1e;
+}
+
+.blue{
+    background:#355C9A;
+}
+
+.brown{
+    background:#7A5230;
+}
+
+.green{
+    background:#556B2F;
+}
+
+.grey{
+    background:#8E8E8E;
+}
+
+.orange{
+    background:#E57A27;
+}
+
+.pink{
+    background:#E9A7B2;
+}
+
+.red{
+    background:#C73434;
+}
+
+.tan{
+    background:#C6A27D;
+}
+
+.dark{
+    background:#444;
+}
+
+/*==========================
+    SIZE
+==========================*/
+
+.size-title{
+    font-size:12px;
+    font-weight:400;
+    margin-bottom:8px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color:#4C4C4B;
+}
+
+.size-btn{
+    width:100%; 
+    border: none; 
+    background:#F5F4F4;
+    padding:12px 0px;
+    font-size:13px;
+    font-weight:400;
+    transition:.3s;
+    cursor:pointer;
+}
+
+.size-btn:hover{
+    background:#222;
+    color:#fff;
+    border-color:#222;
+}
+
+/*==========================
+    RIGHT CONTENT
+==========================*/
+
+.breadcrumb-nav{
+    margin-top: 16px;
+    margin-bottom:18px;
+    font-size:12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    
+}
+
+.breadcrumb-nav a{
+    color:#737373;
+}
+
+.breadcrumb-nav span{
+    margin:0 6px;
+    color:#737373;
+}
+
+.listing-title{
+    font-size:32px;
+    font-weight:400;
+    color:#000000;
+    line-height:40px;
+    margin-bottom:14px;
+    max-width:1000px;
+}
+
+.featured-text{
+    font-size:16px;
+    color:#000000;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    margin-bottom:10px;
+    font-weight:400;
+}
+
+/*==================================================
+            PRODUCT CARD
+==================================================*/
+
+.product-card{
+    position:relative;
+    transition:all .35s ease;
+}
+
+.product-card:hover{
+    transform:translateY(-6px);
+}
+
+/*==========================
+    PRODUCT IMAGE
+==========================*/
+
+.product-card img{
+    width:100%;
+    object-fit:cover;
+    padding:25px;
+    transition:.35s;
+}
+
+.product-card:hover img{
+    transform:scale(1.03);
+}
+
+/*==========================
+    SALE BADGE
+==========================*/
+
+.sale-badge{
+    
+    position:absolute;
+    background:#ffffff;
+    color:#D0021B;
+    font-size:12px;
+    font-weight:400;
+    letter-spacing:.2px;
+    line-height: 16px;
+    padding:4px 6px;
+    z-index: 1;
+    border:6px ;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+
+/*==========================
+    PRODUCT INFO
+==========================*/
+
+.product-info{
+    padding-top:18px;
+}
+
+.product-info h5{
+    font-size:18px;
+    font-weight:500;
+    color:#222;
+    margin-bottom:10px;
+    line-height:1.4;
+    transition:.3s;
+}
+
+.product-card:hover h5{
+    color:#000;
+}
+
+/*==========================
+    PRICE
+==========================*/
+
+.price{
+    margin-bottom:8px;
+    font-size:16px;
+}
+
+.price del{
+    color:#999;
+    margin-right:10px;
+    font-weight:400;
+}
+
+.price span{
+    color:#222;
+    font-size:18px;
+    font-weight:700;
+}
+
+/*==========================
+    PRODUCT COLOR NAME
+==========================*/
+
+.product-color{
+    font-size:14px;
+    color:#666;
+    margin-bottom:12px;
+}
+
+/*==========================
+    COLOR SWATCHES
+==========================*/
+
+.product-colors{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:18px;
+}
+
+.product-colors span{
+    width:18px;
+    height:18px;
+    border-radius:50%;
+    border:1px solid #d8d8d8;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.product-colors span:hover{
+    transform:scale(1.15);
+}
+
+/*==========================
+    BADGES
+==========================*/
+
+.badge-group{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+}
+
+.badge-group span{
+    border:1px solid #d9d9d9;
+    padding:6px 10px;
+    font-size:10px;
+    letter-spacing:.8px;
+    font-weight:600;
+    color:#444;
+    transition:.3s;
+    background:#fff;
+}
+
+.badge-group span:hover{
+    background:#222;
+    color:#fff;
+    border-color:#222;
+}
+
+/*==========================
+    HOVER EFFECTS
+==========================*/
+
+.product-card:hover{
+    cursor:pointer;
+}
+
+.product-card:hover .sale-badge{
+    background:#222;
+    color:#fff;
+}
+
+.product-card:hover .price span{
+    color:#000;
+}
+
+.product-card:hover .badge-group span{
+    border-color:#bbb;
+}
+
+/*==========================
+    CARD SPACING
+==========================*/
+
+.product-card{
+    margin-bottom:15px;
+}
+
+.product-info>*:last-child{
+    margin-bottom:0;
+}
+
+/*==================================================
+        RESPONSIVE - DESKTOP / TABLET / MOBILE
+==================================================*/
+
+/*==========================
+    LARGE DESKTOP
+==========================*/
+
+@media (min-width:1400px){
+
+    .container-fluid{
+        max-width:1500px;
+        margin:auto;
+    }
+
+    .listing-title{
+        font-size:46px;
+    }
+
+}
+
+
+/*==========================
+    DESKTOP
+==========================*/
+
+@media (max-width:1199.98px){
+
+    .listing-title{
+        font-size:38px;
+    }
+
+    .filter-sidebar{
+        padding-right:15px;
+    }
+
+    .badge-group span{
+        font-size:9px;
+    }
+
+}
+
+
+/*==========================
+    TABLET
+==========================*/
+
+@media (max-width:991.98px){
+
+    .product-listing{
+        padding:50px 0;
+    }
+
+    .filter-sidebar{
+
+        position:static;
+        padding-right:0;
+        margin-bottom:40px;
+
+    }
+
+    .listing-title{
+
+        font-size:32px;
+
+    }
+
+    .featured-text{
+
+        margin-bottom:30px;
+
+    }
+
+    .filter-box{
+
+        padding:22px 0;
+
+    }
+
+    .product-card{
+
+        margin-bottom:20px;
+
+    }
+
+}
+
+
+/*==========================
+    SMALL TABLET
+==========================*/
+
+@media (max-width:767.98px){
+
+    .product-listing{
+
+        padding:40px 0;
+
+    }
+
+    .listing-title{
+
+        font-size:28px;
+
+    }
+
+    .breadcrumb-nav{
+
+        font-size:13px;
+
+    }
+
+    .filter-heading{
+
+        font-size:17px;
+
+    }
+
+    .product-info h5{
+
+        font-size:17px;
+
+    }
+
+    .price{
+
+        font-size:15px;
+
+    }
+
+    .price span{
+
+        font-size:17px;
+
+    }
+
+    .badge-group{
+
+        gap:6px;
+
+    }
+
+}
+
+
+/*==========================
+    MOBILE
+==========================*/
+
+@media (max-width:575.98px){
+
+    .product-listing{
+
+        padding:35px 0;
+
+    }
+
+    .listing-title{
+
+        font-size:24px;
+        line-height:1.4;
+
+    }
+
+    .featured-text{
+
+        font-size:14px;
+
+    }
+
+    .product-count{
+
+        margin-bottom:25px;
+
+    }
+
+    .filter-box{
+
+        padding:18px 0;
+
+    }
+
+    .filter-heading{
+
+        font-size:16px;
+
+    }
+
+    .filter-box label{
+
+        font-size:13px;
+
+    }
+
+    .size-title{
+
+        font-size:14px;
+
+    }
+
+    .size-btn{
+
+        padding:8px 0;
+        font-size:12px;
+
+    }
+
+    .product-info{
+
+        padding-top:15px;
+
+    }
+
+    .product-info h5{
+
+        font-size:16px;
+
+    }
+
+    .price{
+
+        font-size:14px;
+
+    }
+
+    .price span{
+
+        font-size:16px;
+
+    }
+
+    .badge-group span{
+
+        font-size:9px;
+        padding:5px 8px;
+
+    }
+
+    .product-colors span{
+
+        width:16px;
+        height:16px;
+
+    }
+
+}
+
+
+/*==================================================
+            BOOTSTRAP UTILITIES
+==================================================*/
+
+.img-fluid{
+    object-fit:contain;
+}
+
+.row>*{
+    margin-bottom:0;
+}
+
+
+/*==================================================
+            SMOOTH TRANSITIONS
+==================================================*/
+
+.product-card,
+.product-card img,
+.sale-badge,
+.badge-group span,
+.size-btn,
+.color,
+.product-colors span,
+.view-more{
+    transition:all .3s ease;
+}
+
+
+/*==================================================
+            ACCESSIBILITY
+==================================================*/
+
+.size-btn:focus,
+.filter-box input:focus{
+    outline:none;
+    box-shadow:0 0 0 0.2rem rgba(0,0,0,.12);
+}
+
+
+/*==================================================
+            OPTIONAL SCROLLBAR
+==================================================*/
+
+::-webkit-scrollbar{
+    width:8px;
+}
+
+::-webkit-scrollbar-track{
+    background:#f4f4f4;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#bcbcbc;
+    border-radius:20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:#888;
+}
+
+/*=================================
+            FOOTER
+==================================*/
+
+.footer-section
+{
+    padding:70px 75px 30px;
+    background:#F5F4F4;
+}
+
+.footer-section h4
+{
+    font-size:16px;
+    font-weight:600;
+    color:#262626;
+    margin-bottom:28px;
+}
+
+.footer-section ul
+{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.footer-section ul li
+{
+    margin-bottom:12px;
+}
+
+.footer-section ul li a
+{
+    text-decoration:none;
+    color:#737373;
+    font-size:14px;
+    line-height:22px;
+    letter-spacing:0.5px;
+}
+
+.footer-section ul li a:hover
+{
+    color:#000;
+}
+
+/* Newsletter */
+
+.newsletter
+{
+    display:flex;
+    justify-content:flex-end;
+}
+
+.newsletter input
+{
+    width:420px;
+    height:60px;
+    border:1px solid #E5E5E5;
+    border-right:none;
+    padding:0 18px;
+    outline:none;
+    font-size:16px;
+}
+
+.newsletter button
+{
+    width:62px;
+    height:60px;
+    border:none;
+    background:#262626;
+    color:#fff;
+    font-size:28px;
+    cursor:pointer;
+}
+
+/* Bottom Footer */
+
+.footer-bottom
+{
+    margin-top:70px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+.footer-bottom a
+{
+    text-decoration:none;
+    color:#737373;
+    font-size:13px;
+}
+
+.footer-bottom a:hover
+{
+    color:#000;
+}
+
+.copyright
+{
+    text-align:center;
+    margin-top:22px;
+    color:#737373;
+    font-size:14px;
+}

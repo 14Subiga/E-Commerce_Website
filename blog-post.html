@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Blog Post | Everlane</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Custom CSS -->
+     <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./blog-post.css">
+    
+
+</head>
+
+
+<body>
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- =========================
+         ANNOUNCEMENT BAR
+    ========================== -->
+
+    <section class="announcement-bar py-1">
+
+        <div class="container-fluid px-4">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-11 col-10 text-center">
+
+                    <div class="d-inline-flex align-items-center gap-1 announcement-text">
+
+                        <span>Get early access on launches and offers.</span>
+
+                        <a href="#">
+                            <span class="text-decoration-underline">
+                                Sign Up For Texts
+                            </span>
+                        </a>
+
+                        <span>→</span>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-1 col-2">
+
+                    <div class="d-flex justify-content-end align-items-center gap-2">
+
+                        <img src="./Landing_assets/language.png"
+                            class="flag"
+                            alt="USA Flag">
+
+                        <span class="currency-text">
+                            USD
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header>
+        <!-- Top Navigation -->
+        <div class="border-bottom">
+
+            <div class="container-fluid px-5">
+
+                <div class="row align-items-center">
+
+                    <!-- Left Menu -->
+                    <div class="col-4">
+
+                        <div class="d-flex align-items-center">
+
+                            <a href="./landing.html" class="nav-link active-link">Women</a>
+
+                            <!-- MEN DROPDOWN -->
+                            <div class="menu-wrapper">
+
+                                <a href="#" class="nav-link active-link">Men</a>
+
+                                <div class="mega-menu">
+
+                                    <div class="container">
+
+                                        <div class="row">
+
+                                            <!-- Highlights -->
+
+                                            <div class="col-lg-3">
+
+                                                <h6>HIGHLIGHTS</h6>
+
+                                                <ul>
+
+                                                    <li><a href="./listing.html">Shop All New Arrivals</a></li>
+                                                    <li><a href="./listing.html">The Gift Guide</a></li>
+                                                    <li><a href="./listing.html">New Bottoms</a></li>
+                                                    <li><a href="./listing.html">New Tops</a></li>
+                                                    <li><a href="./listing.html">T-Shirt Bundles</a></li>
+                                                    <li><a href="./listing.html">Under $100</a></li>
+
+                                                </ul>
+
+                                            </div>
+
+                                            <!-- Featured -->
+
+                                            <div class="col-lg-3">
+
+                                                <h6>FEATURED SHOPS</h6>
+
+                                                <ul>
+
+                                                    <li><a href="./listing.html">The Holiday Outfit Edit</a></li>
+                                                    <li><a href="./listing.html">Giftable Sweaters</a></li>
+                                                    <li><a href="./listing.html">Uniform & Capsule</a></li>
+                                                    <li><a href="./listing.html">The Performance Chino Shop</a></li>
+                                                    <li><a href="./listing.html">Top Rated Men's Clothing</a></li>
+
+                                                </ul>
+
+                                            </div>
+
+                                            <!-- Image 1 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="mega-image">
+
+                                                    <img src="./Landing_assets/menu1.png" alt="Holiday Outfit">
+
+                                                    <div class="mega-caption">
+
+                                                        <h5>The Holiday<br>Outfit Edit</h5>
+
+                                                        <span>→</span>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <!-- Image 2 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="mega-image">
+
+                                                    <img src="./Landing_assets/menu2.png" alt="Giftable Sweaters">
+
+                                                    <div class="mega-caption">
+
+                                                        <h5>Giftable<br>Sweaters</h5>
+
+                                                        <span>→</span>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <a href="./about.html" class="nav-link active-link">About</a>
+
+                            <a href="./blog.html" class="nav-link active-link">Everworld Stories</a>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Center Logo -->
+                    <div class="col-4 text-center">
+
+                        <h3 class="logo m-0">
+                            EVERLANE
+                        </h3>
+
+                    </div>
+
+                    <!-- Right Icons -->
+                    <div class="col-4 d-flex justify-content-end">
+
+                        <div class="right-menu d-flex align-items-center gap-4">
+
+                            <a href="javascript:void(0);" id="searchBtn">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+
+                            <a href="#"><i class="fa-regular fa-user"></i></a>
+
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+    <!-- =========================
+         HERO SECTION
+    ========================== -->
+
+    <section class="blog-hero">
+
+        <div class="container-fluid h-100">
+
+            <div class="row h-100 align-items-center">
+
+                <div class="col-lg-6">
+
+                    <div class="blog-hero-content">
+
+                        <a href="#" class="btn btn-light blog-hero-btn">
+                            style
+                        </a>
+                        <h1>Style
+                            <br>
+                            How To Style Winter Whites</h1>
+
+                        <p>
+                            Redefine your winter wardrobe with the timeless elegance of winter whites with this style guide.
+                        </p>
+
+                        
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================
+            SECTION 2 : INTRODUCTION
+    ========================================== -->
+
+    <section class="blog-intro">
+
+        <div class="container">
+
+            <div class="row">
+
+                <!-- Social Icons -->
+
+                <div class="col-lg-2">
+
+                    <div class="blog-social">
+
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Article -->
+
+                <div class="col-lg-10">
+
+                    <div class="blog-intro-content">
+
+                        <div class="intro-line"></div>
+
+                        <h2>
+
+                            In a season dominated by dark hues,
+                            redefine your winter wardrobe with
+                            the timeless elegance of winter whites.
+
+                            Whether top-to-toe white outfits,
+                            tonal mixing-and-matching, or a key
+                            white piece (or two), give your style
+                            a breath of fresh air with this list
+                            of winter white closet essentials.
+
+                        </h2>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- =========================================
+            SECTION 3 : IMAGE
+    ========================================== -->
+
+    <section class="blog-image-one">
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-8 col-md-10">
+
+                    <div class="blog-img-box">
+
+                        <img src="./blog_assets/blog-image1.png" alt="Winter Style">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- =========================================
+            SECTION 4 : ARTICLE
+    ========================================== -->
+
+    <section class="blog-article">
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-8">
+
+                    <div class="article-box">
+
+                        <h2>Nail the Classics</h2>
+
+                        <p>
+                            Do pure winter chic with a classic cashmere white sweater.
+                            Made in the softest cashmere, it's a sweater that will
+                            last season after season. Effortlessly elevating any
+                            winter outfit, a white sweater is a must for any capsule
+                            collection.
+                        </p>
+
+
+                        <h2>Monochromatic Magic</h2>
+
+                        <p>
+                            Nothing feels more luxe than an all-white winter outfit.
+                            Pair classic corduroy pants with a modern wide-legged
+                            silhouette and finish the look with subtle accessories
+                            and soft neutral layers.
+                        </p>
+
+
+                        <h2>Keep Warm in White</h2>
+
+                        <p>
+                            Stay warm all winter long with a white puffer jacket,
+                            layered over knitwear. Throw on a white coat over a
+                            neutral outfit for a polished winter look while keeping
+                            comfort and warmth.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- =========================================
+            SECTION 5 : SECOND IMAGE
+    ========================================= -->
+
+    <section class="blog-image-two">
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-8 col-md-10">
+
+                    <div class="blog-img-box">
+
+                        <img src="./blog_assets/blog-image2.png" alt="Winter White Outfit">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- =========================================
+            SECTION 6 : ARTICLE CONTENT
+    ========================================= -->
+
+    <section class="blog-content-two">
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-8">
+
+                    <div class="article-box">
+
+                        <h2>Textures and Layers</h2>
+
+                        <p>
+
+                            Winter fashion is all about layering, and white outfits
+                            provide the perfect base for playing with textures and
+                            fabrics.
+
+                            Pair a soft knit sweater with tailored trousers, layer
+                            with a structured wool coat, or style a chunky cardigan
+                            over a turtleneck to create a timeless cold-weather look.
+
+                        </p>
+
+
+                        <h2>Accessorize with Neutrals</h2>
+
+                        <p>
+
+                            Neutral accessories perfectly complement an all-white
+                            wardrobe.
+
+                            Choose leather boots, soft scarves, structured handbags,
+                            and minimal jewellery to complete your look while
+                            maintaining an elegant and modern appearance.
+
+                        </p>
+
+
+                        <p>
+
+                            Step into the season with confidence and let your winter
+                            whites become your signature style. Shop our curated
+                            Winter White collection below.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- =========================================
+            SECTION 7 : WINTER WHITE EDIT
+    ========================================= -->
+
+    <section class="white-edit">
+        <div class="container-fluid">
+
+    <div class="row">
+
+    <div class="col-12">
+
+    <div class="white-edit-title">
+
+    <h2>The White Whites Edit</h2>
+
+    </div>
+
+
+    <div id="whiteEditCarousel" class="carousel slide">
+
+
+    <!-- Indicators -->
+
+    <div class="carousel-indicators">
+
+    <button type="button"
+    data-bs-target="#whiteEditCarousel"
+    data-bs-slide-to="0"
+    class="active">
+    </button>
+
+    <button type="button"
+    data-bs-target="#whiteEditCarousel"
+    data-bs-slide-to="1">
+    </button>
+
+    </div>
+
+
+
+    <div class="carousel-inner">
+
+    <!-- =====================
+    SLIDE 1
+    ===================== -->
+
+    <div class="carousel-item active">
+
+    <div class="row product-row">
+
+
+    <div class="col-lg-4 col-md-6">
+
+    <div class="product-card">
+
+    <img src="./blog_assets/product1.png">
+
+    <h4>Cashmere Crew Sweater</h4>
+
+    <p>$139</p>
+
+    </div>
+
+    </div>
+
+
+    <div class="col-lg-4 col-md-6">
+
+    <div class="product-card">
+
+    <img src="./blog_assets/product2.png">
+
+    <h4>Corduroy Wide Leg Pant</h4>
+
+    <p>$98</p>
+
+    </div>
+
+    </div>
+
+
+    <div class="col-lg-4 col-md-6">
+
+    <div class="product-card">
+
+    <img src="./blog_assets/product3.png">
+
+    <h4>Cotton Beanie</h4>
+
+    <p>$38</p>
+
+    </div>
+
+    </div>
+
+
+    </div>
+
+    </div>
+
+
+
+    <!-- =====================
+    SLIDE 2
+    ===================== -->
+
+    <div class="carousel-item">
+
+    <div class="row product-row">
+
+
+    <div class="col-lg-6">
+
+    <div class="product-card">
+
+    <img src="./blog_assets/product4.png">
+
+    <h4>Chelsea Boot</h4>
+
+    <p>$198</p>
+
+    </div>
+
+    </div>
+
+
+    <div class="col-lg-6">
+
+    <div class="product-card">
+
+    <img src="./blog_assets/product5.png">
+
+    <h4>Down Puffer</h4>
+
+    <p>$198</p>
+
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+
+    <button class="carousel-control-prev"
+    type="button"
+    data-bs-target="#whiteEditCarousel"
+    data-bs-slide="prev">
+
+    <span class="carousel-control-prev-icon"></span>
+
+    </button>
+
+    <button class="carousel-control-next"
+    type="button"
+    data-bs-target="#whiteEditCarousel"
+    data-bs-slide="next">
+
+    <span class="carousel-control-next-icon"></span>
+
+    </button>
+
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+    </section>
+
+
+
+
+
+    <!-- =========================================
+            SECTION 8 : RELATED POSTS
+    ========================================= -->
+
+    <section class="related-posts">
+        <div class="container">
+
+            <h2>Related Articles</h2>
+
+            <div class="row">
+
+                <div class="col-lg-4">
+                    
+                    <a href="./blog-post.html" class="blog-link">
+                        <div class="related-card">
+
+                            <img src="./blog_assets/latest11.png">
+
+                            <h3>How To Style Winter Whites</h3>
+
+                            <span>Style</span>
+
+                        </div>
+                    </a>
+
+                    
+
+                </div>
+
+
+                <div class="col-lg-4">
+
+                    <a href="./blog-post.html" class="blog-link">
+                        <div class="related-card">
+
+                            <img src="./blog_assets/latest12.png">
+
+                            <h3>We Won A Glossy Award</h3>
+
+                            <span>Transparency</span>
+
+                        </div>
+                    </a>
+
+                </div>
+
+
+                <div class="col-lg-4">
+
+                    
+                    <a href="./blog-post.html" class="blog-link">
+                        <div class="related-card">
+
+                            <img src="./blog_assets/latest13.png">
+
+                            <h3>Coordinate Your Style: Matching Outfits for Everyone</h3>
+
+                            <span>Style</span>
+
+                        </div>
+                    </a>
+
+                 </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- =========================
+            FOOTER
+    ========================= -->
+
+    <footer class="footer-section">
+
+        <div class="container-fluid">
+
+            <!-- Top Footer -->
+            <div class="row">
+
+                <!-- Account -->
+                <div class="col-lg-2 col-md-6 col-6">
+
+                    <h4>Account</h4>
+
+                    <ul>
+                        <li><a href="#">Log In</a></li>
+                        <li><a href="#">Sign Up</a></li>
+                        <li><a href="#">Redeem a Gift Card</a></li>
+                    </ul>
+
+                </div>
+
+                <!-- Company -->
+                <div class="col-lg-2 col-md-6 col-6">
+
+                    <h4>Company</h4>
+
+                    <ul>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="#">Environmental Initiatives</a></li>
+                        <li><a href="#">Factories</a></li>
+                        <li><a href="#">DEI</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">International</a></li>
+                        <li><a href="#">Accessibility</a></li>
+                    </ul>
+
+                </div>
+
+                <!-- Get Help -->
+                <div class="col-lg-2 col-md-6 col-6">
+
+                    <h4>Get Help</h4>
+
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Bulk Orders</a></li>
+                    </ul>
+
+                </div>
+
+                <!-- Connect -->
+                <div class="col-lg-2 col-md-6 col-6">
+
+                    <h4>Connect</h4>
+
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Affiliates</a></li>
+                        <li><a href="#">Our Stores</a></li>
+                    </ul>
+
+                </div>
+
+                <!-- Newsletter -->
+                <div class="col-lg-4 col-md-12 col-12">
+
+                    <form class="newsletter">
+
+                        <input type="email"
+                            placeholder="Email Address">
+
+                        <button type="submit">
+                            &#8594;
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+            <!-- Bottom Footer -->
+
+            <div class="footer-bottom">
+
+                <a href="#">Privacy Policy</a>
+
+                <a href="#">Terms of Service</a>
+
+                <a href="#">Do Not Sell or Share My Personal Information</a>
+
+                <a href="#">CS Supply Chain Transparency</a>
+
+                <a href="#">Vendor Code of Conduct</a>
+
+                <a href="#">Sitemap Pages</a>
+
+                <a href="#">Sitemap Products</a>
+
+            </div>
+
+            <p class="copyright">
+                © 2023 All Rights Reserved
+            </p>
+
+        </div>
+
+    </footer>
+</body>
+</html>

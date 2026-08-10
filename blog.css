@@ -1,0 +1,521 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+main{
+    width:100%;
+    background:#fff;
+}
+
+/* ================= HERO ================= */
+
+.blog-hero
+{
+    width:100%;
+    padding:64px 60px;
+}
+
+.hero-line
+{
+    margin-top: 64px;
+    width:90%;
+    height:14px;
+    background:#262626;
+    margin-bottom:8px;
+}
+
+.blog-hero h1{
+
+    font-size:160px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:600;
+    line-height:176px;
+    color: #000000;
+
+}
+
+.blog-hero p{
+
+    font-weight: 400;
+    margin-top:25px;
+    font-size:24px;
+    line-height:33.24px;
+    color:#000000;
+
+}
+
+
+/* ===========================
+        THE LATEST
+=========================== */
+
+.latest-section{
+    width:100%;
+    padding:120px 60px;
+    
+}
+
+.latest-header{
+    margin-bottom:12px;
+}
+
+.latest-header h2{
+    font-size:54px;
+    font-weight:600;
+    color:#000000;
+}
+
+.latest-row{
+    row-gap:120px;
+}
+
+.latest-card{
+    height: 509px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.latest-card img{
+    width:100%;
+    height: 413px;
+
+}
+
+.latest-content{
+    margin-top:20px;
+}
+
+.latest-content h3{
+    font-size:32px;
+    font-weight:400;
+    line-height:40px;
+    color:#000000;
+    margin-bottom:20px;
+}
+
+.latest-content span{
+    padding: 4px 20px;
+    border: 1px solid #DDDBDC;
+    font-size:12px;
+    font-weight:600;
+    color:#000000;
+    line-height: 16px;
+    letter-spacing:0.2px;
+}
+
+.latest-card:hover{
+    transform:translateY(-8px);
+}
+.latest-content span:hover{
+    background-color: #000;
+    color: white;
+}
+
+
+.latest-btn
+{
+    display:inline-flex;
+    justify-content:center;
+    align-items: center;
+    margin-top:90px;
+    padding:20px 100px;
+    border-radius: 8px;
+    text-decoration: none;
+    gap:10px;
+    background:#262626;
+    font-size:14px;
+    font-weight:600;
+    line-height: 21px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    transition:.3s;
+}
+
+.latest-btn:hover{
+     transform: scale(1.05);
+}
+
+/* ===========================
+        RESPONSIVE
+=========================== */
+
+@media (max-width:991px){
+
+    .latest-section{
+        padding:70px 25px;
+    }
+
+    .latest-header h2{
+        font-size:36px;
+    }
+
+    .latest-content h3{
+        font-size:21px;
+    }
+
+    .latest-btn{
+        margin-top:70px;
+        padding:18px 70px;
+    }
+
+}
+
+@media (max-width:767px){
+
+    .latest-section{
+        padding:60px 15px;
+    }
+
+    .latest-header{
+        margin-bottom:35px;
+    }
+
+    .latest-header h2{
+        font-size:30px;
+    }
+
+    .latest-content h3{
+        font-size:19px;
+    }
+
+    .latest-btn{
+        display:flex;
+        width:100%;
+        padding:16px 20px;
+        margin-top:50px;
+    }
+
+}
+
+
+/* ================= BANNER ================= */
+
+.clean-banner
+{
+    width:100%;
+    
+    margin:20px 0 90px;
+
+}
+
+.clean-banner img{
+
+    width:100%;
+    height: auto;
+    display:block;
+
+}
+
+
+
+/* ===========================
+        OUR PROGRESS
+=========================== */
+
+.progress-section{
+    width:100%;
+    
+    padding:120px 60px;
+    gap: 12px;
+}
+
+.progress-header{
+    margin-bottom:50px;
+}
+
+.progress-header h2{
+    font-size:54px;
+    font-weight: 600;
+    line-height: 72px;
+    color:#000000 ;
+    margin-bottom:40px;
+}
+
+.progress-row{
+    row-gap:24px;
+}
+
+.progress-card{
+    cursor:pointer;
+    transition:0.3s ease;
+}
+
+.progress-card img{
+    width:100%;
+    height: auto;
+    display:block;
+}
+
+.progress-content{
+    margin-top:12px;
+}
+
+.progress-content h3{
+    font-size:32px;
+    font-weight:400;
+    color:#000000;
+    line-height:40px;
+}
+
+.progress-card:hover{
+    transform:translateY(-8px);
+}
+
+/* ===========================
+        RESPONSIVE
+=========================== */
+
+@media (max-width:991px){
+
+    .progress-section{
+        padding:70px 25px;
+    }
+
+    .progress-header h2{
+        font-size:36px;
+    }
+
+    .progress-content h3{
+        font-size:22px;
+    }
+
+}
+
+@media (max-width:767px){
+
+    .progress-section{
+        padding:60px 15px;
+    }
+
+    .progress-header{
+        margin-bottom:35px;
+    }
+
+    .progress-header h2{
+        font-size:30px;
+    }
+
+    .progress-content h3{
+        font-size:20px;
+    }
+
+}
+
+
+/* ================= FOLLOW ================= */
+
+.follow{
+
+    width:100%;
+    min-height: 345px;
+    background:#000000;
+    padding:90px 60px;
+
+}
+
+
+.follow h2{
+
+    font-size:54px;
+    font-weight: 600;
+    line-height: 72px;
+    margin-bottom:40px;
+    color: #FFFFFF;
+}
+
+.follow a{
+
+    display: inline-block;
+    padding: 20px 100px;
+    gap:10px;
+    color:#000000;
+    background:#FFFFFF;
+    padding:18px 35px;
+    border-radius:8px;
+    font-size:14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0.42px;
+    transition:.3s;
+    text-decoration: none;
+
+}
+
+
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:992px){
+
+.latest-grid,
+.progress-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.blog-hero h1{
+
+font-size:90px;
+
+}
+
+.blog-hero p{
+
+font-size:22px;
+line-height:34px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.latest-grid,
+.progress-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.blog-hero h1{
+
+font-size:65px;
+
+}
+
+.blog-hero p{
+
+font-size:18px;
+line-height:30px;
+
+}
+
+.latest h2,
+.progress h2{
+
+font-size:36px;
+
+}
+
+.follow h2{
+
+font-size:38px;
+
+}
+
+.card img{
+
+height:350px;
+
+}
+
+}
+
+
+/*=================================
+            FOOTER
+==================================*/
+
+.footer-section
+{
+    padding:70px 75px 30px;
+    background:#F5F4F4;
+}
+
+.footer-section h4
+{
+    font-size:16px;
+    font-weight:600;
+    color:#262626;
+    margin-bottom:28px;
+}
+
+.footer-section ul
+{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.footer-section ul li
+{
+    margin-bottom:12px;
+}
+
+.footer-section ul li a
+{
+    text-decoration:none;
+    color:#737373;
+    font-size:14px;
+    line-height:22px;
+    letter-spacing:0.5px;
+}
+
+.footer-section ul li a:hover
+{
+    color:#000;
+}
+
+/* Newsletter */
+
+.newsletter
+{
+    display:flex;
+    justify-content:flex-end;
+}
+
+.newsletter input
+{
+    width:420px;
+    height:60px;
+    border:1px solid #E5E5E5;
+    border-right:none;
+    padding:0 18px;
+    outline:none;
+    font-size:16px;
+}
+
+.newsletter button
+{
+    width:62px;
+    height:60px;
+    border:none;
+    background:#262626;
+    color:#fff;
+    font-size:28px;
+    cursor:pointer;
+}
+
+/* Bottom Footer */
+
+.footer-bottom
+{
+    margin-top:70px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+.footer-bottom a
+{
+    text-decoration:none;
+    color:#737373;
+    font-size:13px;
+}
+
+.footer-bottom a:hover
+{
+    color:#000;
+}
+
+.copyright
+{
+    text-align:center;
+    margin-top:22px;
+    color:#737373;
+    font-size:14px;
+}

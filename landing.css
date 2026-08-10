@@ -1,0 +1,948 @@
+
+
+/*=================================
+        SEARCH PANEL
+==================================*/
+
+.search-panel
+{
+    /* display:none; */
+    background:#fff;
+    padding:30px 0 60px;
+}
+
+.search-box
+{
+    width:700px;
+    margin:0 auto;
+
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.search-box input
+{
+    flex:1;
+    height:48px;
+
+    border:none;
+    background:#f5f5f5;
+
+    padding:0 16px;
+
+    outline:none;
+
+    font-size:14px;
+}
+
+.search-box a
+{
+    color:#737373;
+    font-size:14px;
+    text-decoration:none;
+}
+
+.popular-title
+{
+    margin-top:30px;
+    margin-bottom:20px;
+
+    font-size:16px;
+    font-weight:500;
+    color:#333;
+}
+
+.popular-card img
+{
+    width:100%;
+    height:270px;
+    object-fit:cover;
+}
+
+.popular-card a
+{
+    display:inline-block;
+    margin-top:12px;
+
+    color:#444;
+
+    font-size:16px;
+
+    text-decoration:underline;
+}
+
+.popular-card a:hover
+{
+    color:#000;
+}
+
+/* ===============================
+   HERO SECTION
+================================= */
+
+.hero{
+    width:100%;
+    height:758px;
+    background:url("./Landing_assets/hero.png") center/cover no-repeat;
+                                                 /*------->remove*/
+}
+.hero .row 
+{
+    width: 100%;
+}
+
+.hero-content{
+    
+    color:#FFFFFF;
+}
+.hero-content h1,
+.hero-content p
+{
+    margin-left: 205px;
+}
+.hero-content h1{
+    font-size:64px;
+    font-weight:300;
+    margin-bottom:20px;
+    line-height: 1.2;
+}
+
+.hero-content p{
+    font-size:24px;
+    margin-bottom:30px;
+}
+
+.hero-btn{
+    width:240px;
+    height:41px;
+    padding: 12px 0px;
+    border-radius:0;
+    font-size:12px;
+    font-weight:600;
+    letter-spacing:1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 228px;
+}
+
+.hero-btn:hover{
+    background:#222;
+    color:#fff;
+    border-color:#222;
+}
+
+
+/* ===============================
+   RESPONSIVE
+================================= */
+
+@media (max-width:768px){
+
+    .hero{
+        height:420px;
+    }
+
+    .hero .row{
+        justify-content:center;
+    }
+
+    .hero-content{
+        width:100%;
+        text-align:center;
+    }
+
+    .hero-content h1,
+    .hero-content p{
+        margin-left:0;
+    }
+
+    .hero-content h1{
+        font-size:40px;
+        margin-bottom:20px;
+    }
+
+    .hero-content p{
+        font-size:18px;
+        margin-bottom:25px;
+    }
+
+    .hero-btn{
+        width:180px;
+        height:44px;
+        margin: 0 auto;
+    }
+
+}
+
+/*=================================
+      SHOP BY CATEGORY
+==================================*/
+
+.shop-category{
+    background:#fff;
+    padding:0px 42px;
+    
+}
+
+.category-title{
+    margin-top: 90px;
+    font-size:24px;
+    font-weight:300;
+    color:#222;
+    margin-left: 42px;
+}
+
+
+.category-card{
+    margin-top:24px;
+    text-align:center;
+    cursor:pointer;
+    margin-bottom: 90px;
+}
+
+.category-card img{
+    width:100%;
+    height:340px;
+    object-fit:cover;
+    
+}
+
+.category-card:hover img{
+    transform:scale(1.04);
+    transition:.4s;
+}
+
+.category-card h6{
+    margin-top:14px;
+    font-size:12px;
+    font-weight:500;
+    letter-spacing:2px;
+    color:#333;
+    text-decoration:underline;
+}
+
+/* Responsive */
+
+@media(max-width:992px){
+
+    .category-card img{
+        height:280px;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .shop-category{
+        padding:60px 0;
+    }
+
+    .category-title{
+        font-size:28px;
+    }
+
+    .category-card img{
+        height:220px;
+    }
+
+    .category-card h6{
+        font-size:11px;
+    }
+
+}
+
+/*=================================
+      SHOP YOURS
+==================================*/
+.shop-yours
+{
+    width: 100%;
+    
+    padding:0px 42px ;
+}
+.shop-yours .row{
+    --bs-gutter-x: 12px;
+    --bs-gutter-y: 12px;
+}
+.shop-yours-card1,.shop-yours-card2,.shop-yours-card3
+{
+    width:100%;
+    height:534px;
+    color:#FFFFFF;
+    display: grid;
+    place-content: center; /* Centers items on both X and Y axis */
+    justify-items: center; /* Ensures individual elements center horizontally */
+    gap: 23px; /* 12px gap between H2 and Button */
+    
+}
+.shop-yours-card1
+{
+    background: url("./Landing_assets/New_arrivals_Shop_the_latest.png") center/cover no-repeat;  
+}
+.shop-yours-card2
+{
+    background: url("./Landing_assets/Best_sellers_shop_your_fav.png") center/cover no-repeat;  
+}
+.shop-yours-card3
+{
+    background: url("./Landing_assets/Holi_outfit_shop_occasion.png") center/cover no-repeat;
+}
+.shop-yours .shop-yours-btn
+{
+    color:#262626;
+    padding:12px 32.5px;
+    border-radius:0;
+    font-size:14px;
+    font-weight:500;
+    letter-spacing:1.4px;
+    line-height: 16.8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop-yours .shop-yours-btn:hover
+{
+    background:#222;
+    color:#fff;
+    border-color:#222;
+}
+
+@media (max-width: 992px) {
+    .shop-yours {
+        padding: 0 15px; /* Shrinks large padding on small mobile screens */
+    }
+    .shop-yours-card1,
+    .shop-yours-card2,
+    .shop-yours-card3 {
+        height: 800px; /* Reduces height slightly on mobile for better aspect ratio */
+    }
+}
+
+
+/*=================================
+      MISSION
+==================================*/
+.mission
+{
+    padding:90px 42px;
+    
+}
+.mission .m-row
+{
+    width: 100%;
+    height: 281px;
+    background: url("./Landing_assets/mission.png");
+    display: grid;
+    place-items: center;
+}
+.mission .m-row .mission-card
+{
+    width:100%;
+    color:#FFFFFF;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    gap: 12px;
+}
+.mission-card h1
+{
+    height: 40px;
+    font-size: 32px;
+    font-weight: 400;
+}
+.mission-card p
+{
+    height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 2px;
+}
+.mission .mission-btn
+{
+    padding:12px 72px;
+    border-radius:0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    letter-spacing: 1.4px;
+    color:#262626;
+}
+.mission .mission-btn:hover
+{
+    background:#222;
+    color:#fff;
+    border-color:#222;
+}
+
+@media (max-width: 768px) {
+    .mission-card p {
+        margin-top:12px; 
+    }
+    
+}
+
+
+/*=================================
+      EVERLANE FAVORITES
+==================================*/
+.favorites
+{
+    
+    min-height:817px; 
+    padding: 90px 73px;
+}
+
+.favorites-container h2
+{
+    
+    width:100%;
+    height:34px;
+    font-weight:400;
+    font-size:24px;
+    line-height:33.24px;
+    color:#000000;
+    
+}
+.favorites-container > p
+{
+    width:70%;
+    margin:auto;
+    font-weight:400;
+    font-size:16px;
+    line-height:24px;
+    letter-spacing:0.64px;
+    color:#000000;
+     
+}
+.carousel-inner .favorite-row
+{
+    --bs-gutter-x: 12px;
+    --bs-gutter-y: 12px;
+}
+.favorite-card
+{
+    margin-top: 30px;
+}
+.favorite-card .f-img
+{
+    width:100%;
+    object-fit:cover;
+    height:520px;
+    display: block;
+    
+}
+.f-info
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+}
+
+.f-cloth-name,.f-price
+{
+    font-size: 12px;
+    font-weight: 400;
+    color:#262626;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+}
+
+.f-color
+{
+    margin-top: 3px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 16px;
+    color: #737373;
+    margin-left: 0px;
+}
+
+/* Previous button */
+.carousel-control-prev
+{
+    width: 40px;
+    left: -40px;   /* move outside to the left */
+}
+
+/* Next button */
+.carousel-control-next
+{
+    width: 40px;
+    right: -40px;  /* move outside to the right */
+}
+
+/* Arrow icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon
+{
+    filter: brightness(0);   /* black arrows */
+}
+
+@media (max-width:991px)
+{
+    .favorite-card .f-img
+    {
+        height:380px;
+    }
+}
+
+
+/*=================================
+      CUSTOMERS REVIEW
+==================================*/
+
+.customers-reviews
+{
+    
+    padding:90px 73px;
+}
+
+.customer-reviews-card
+{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:74px;
+}
+
+.review-left
+{
+    margin-left:133px;
+    width:530px;
+}
+
+.customer-info
+{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+.customer-info h3
+{
+    margin:0 0 24px;
+    font-size:16px;
+    font-weight:400;
+    line-height:24px;
+    letter-spacing:0.64px;
+    color:#000;
+}
+
+.rating
+{
+    margin-bottom:24px;
+    font-size:18px;
+    line-height:1;
+    color:#000;
+}
+
+.customer-info > p:first-of-type
+{
+    margin:0 0 40px;
+    font-size:24px;
+    font-weight:400;
+    line-height:33.24px;
+    color:#000;
+}
+
+.customer-info .name
+{
+    margin:0;
+    font-size:14px;
+    font-weight:400;
+    line-height:20px;
+    letter-spacing:1.4px;
+    color:#000;
+}
+
+.customer-info .name span a
+{
+    color:#000;
+    text-decoration:underline;
+}
+
+.review-right
+{
+    width:530px;
+}
+
+.reviewer-img
+{
+    width:100%;
+}
+
+.reviewer-img img
+{
+    width:100%;
+    height:695px;
+    display:block;
+    object-fit:cover;
+}
+@media (max-width:991px)
+{
+    .customer-reviews-card
+    {
+        flex-direction:column;
+    }
+
+    .review-left,
+    .review-right
+    {
+        width:100%;
+        margin-left:0;
+    }
+
+    .reviewer-img img
+    {
+        height:auto;
+    }
+}
+
+/*=================================
+      GIFTS AND BEHIND SEEN
+==================================*/
+
+.gifts-behind-seen .row
+{
+    
+    padding:90px 185px;
+}
+.gifts-behind-seen-card
+{
+    display:grid;
+    place-content:center;
+    justify-items:center;
+}
+.gifts-behind-seen-card h1
+{
+    font-size:24px;
+    font-weight:400;
+    line-height:33.24px;
+    color:#262626;
+    margin-bottom:20px;
+}
+.fashion-img
+{
+    width:505px;
+}
+.fashion-img img
+{
+    width:100%;
+    height: 626px;
+    object-fit:cover;
+}
+.gifts-behind-seen-card > p,
+.gifts-behind-seen-card a
+{
+     color:#262626;
+    font-size:14px;
+    font-weight:400;
+    letter-spacing:1.4px;
+}
+.gifts-behind-seen-card p
+{
+    margin-top:20px;
+    margin-left:15px;
+    line-height:16.8px;
+}
+.gifts-behind-seen-card a
+{
+    margin-top:35px;
+    text-decoration:underline;
+    line-height:20px;
+}
+
+
+/*=================================
+      EVERLANE ON YOU
+==================================*/
+/*=================================
+      First row
+==================================*/
+
+.everlane-on-you
+{
+    
+    padding:90px 73px;
+}
+
+.everlane-you-header
+{
+    text-align:center;
+    margin-bottom:12px;
+}
+
+.everlane-you-header h2
+{
+    font-size:32px;
+    font-weight:400;
+    line-height: 40px;
+    color:#262626;
+    margin-bottom:25px;
+}
+
+.everlane-you-header p
+{
+    font-size:14px;
+    font-weight:400;
+    color:#262626;
+    line-height: 16.8px;
+    letter-spacing: 1.4px;
+    margin-bottom:12px;
+    margin-right:200px;
+}
+
+.everlane-you-header a
+{
+    font-size:14px;
+    font-weight:400;
+    line-height: 20px;
+    letter-spacing: 1.4px;
+    color:#262626;
+    text-decoration:underline;
+    margin-bottom: 12px;
+}
+
+.everlane-row
+{
+    --bs-gutter-x:12px;
+}
+
+/* Image Box */
+.everlane-img-box
+{
+    position:relative;
+}
+
+.everlane-img
+{
+    width:100%;
+    height:420px;
+    object-fit:cover;
+    display:block;
+}
+
+/* Cart Icon */
+.cart-icon
+{
+    position:absolute;
+    top:12px;
+    right:12px;
+
+    width:36px;
+    height:36px;
+
+    background:#ffffff;
+    border:1px solid #d9d9d9;
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-decoration:none;
+    transition:0.3s ease;
+}
+
+.cart-icon i
+{
+    font-size:16px;
+    color:#262626;
+}
+
+.cart-icon:hover
+{
+    background:#262626;
+}
+
+.cart-icon:hover i
+{
+    color:#ffffff;
+}
+
+/* Carousel Arrows */
+#everlaneCarousel .carousel-control-prev
+{
+    width:40px;
+    left:-45px;
+}
+
+#everlaneCarousel .carousel-control-next
+{
+    width:40px;
+    right:-45px;
+}
+
+#everlaneCarousel .carousel-control-prev-icon,
+#everlaneCarousel .carousel-control-next-icon
+{
+    width:20px;
+    height:20px;
+    padding:18px;
+    filter:invert(1);
+}
+
+/* Indicators */
+#everlaneCarousel .carousel-indicators
+{
+    margin-bottom:70px;
+}
+
+#everlaneCarousel .carousel-indicators button
+{
+    width:8px;
+    height:8px;
+    border-radius:50%;
+}
+
+
+/*=================================
+      Second row
+==================================*/
+.Everlance-on-you2
+{
+    padding: 0px 77px 90px; 
+    margin-top: 90px; 
+    --bs-gutter-x:6px;   
+}
+.com-shipp,.con-cra,.come-say-hi
+{
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    text-align: center;
+    align-items:center;
+}
+
+.Everlance-on-you2 .c-logo
+{
+    width:78px;
+    height:78px;
+    margin-bottom:20px;
+}
+.Everlance-on-you2 h3
+{
+    font-size:14px;
+    font-weight:600;
+    line-height:21px;
+    letter-spacing:0.42px;
+    color:#262626;
+    margin-bottom:4px;
+}
+.Everlance-on-you2 p
+{
+    font-size:14px;
+    font-weight:400;
+    line-height:16.8px;
+    letter-spacing:1.4px;
+    color:#262626;
+    margin-left: 55px;
+}
+
+/*=================================
+            FOOTER
+==================================*/
+
+.footer-section
+{
+    padding:70px 75px 30px;
+    background:#F5F4F4;
+}
+
+.footer-section h4
+{
+    font-size:16px;
+    font-weight:600;
+    color:#262626;
+    margin-bottom:28px;
+}
+
+.footer-section ul
+{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.footer-section ul li
+{
+    margin-bottom:12px;
+}
+
+.footer-section ul li a
+{
+    text-decoration:none;
+    color:#737373;
+    font-size:14px;
+    line-height:22px;
+    letter-spacing:0.5px;
+}
+
+.footer-section ul li a:hover
+{
+    color:#000;
+}
+
+/* Newsletter */
+
+.newsletter
+{
+    display:flex;
+    justify-content:flex-end;
+}
+
+.newsletter input
+{
+    width:420px;
+    height:60px;
+    border:1px solid #E5E5E5;
+    border-right:none;
+    padding:0 18px;
+    outline:none;
+    font-size:16px;
+}
+
+.newsletter button
+{
+    width:62px;
+    height:60px;
+    border:none;
+    background:#262626;
+    color:#fff;
+    font-size:28px;
+    cursor:pointer;
+}
+
+/* Bottom Footer */
+
+.footer-bottom
+{
+    margin-top:70px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+.footer-bottom a
+{
+    text-decoration:none;
+    color:#737373;
+    font-size:13px;
+}
+
+.footer-bottom a:hover
+{
+    color:#000;
+}
+
+.copyright
+{
+    text-align:center;
+    margin-top:22px;
+    color:#737373;
+    font-size:14px;
+}

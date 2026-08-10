@@ -1,0 +1,831 @@
+/* ===============================
+   HERO SECTION
+================================= */
+
+.blog-hero{
+    width:100%;
+    padding: 278px 407px 70px 53px;
+    background:url("./blog_assets/blog-hero.png") center/cover no-repeat;
+                                                
+}
+.blog-hero .row 
+{
+    width: 100%;
+}
+
+.blog-hero-content{
+    
+    color:#FFFFFF;
+}
+
+.blog-hero-content h1{
+    font-size:64px;
+    font-weight:600;
+    margin-bottom:18px;
+    line-height: 72px;
+}
+
+.blog-hero-content p{
+    font-size:24px;
+    font-weight: 400;
+    line-height: 33.24px;
+    
+}
+
+.blog-hero-btn{
+    background: none;
+    width:68px;
+    height:32px;
+    padding: 8px 20px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    border-radius:30px;
+    font-size:12px;
+    font-weight:400;
+    line-height: 16px;
+    letter-spacing:0.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.blog-hero-btn:hover{
+    background:#222;
+    color:#fff;
+    border-color:#222;
+}
+
+
+/* ===================================
+        INTRODUCTION
+=================================== */
+
+.blog-intro{
+
+    padding:80px 0;
+
+}
+
+.blog-social{
+
+    display:flex;
+
+    gap:12px;
+
+}
+
+.blog-social a{
+
+    width:36px;
+
+    height:36px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#222;
+
+    color:#fff;
+
+    border-radius:4px;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.blog-social a:hover{
+
+    background:#000;
+
+}
+
+.blog-intro-content{
+
+    position:relative;
+
+}
+
+.intro-line{
+
+    width:100%;
+
+    height:8px;
+
+    background:#111;
+
+    margin-bottom:35px;
+
+}
+
+.blog-intro-content h2{
+
+    font-size:48px;
+
+    line-height:1.25;
+
+    font-weight:700;
+
+    color:#111;
+
+}
+
+
+/* ===================================
+        RESPONSIVE (992px)
+=================================== */
+
+@media (max-width: 992px) {
+
+    .blog-hero {
+        padding: 180px 40px 60px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .blog-hero-content h1 {
+        font-size: 48px;
+        line-height: 56px;
+        margin-bottom: 18px;
+    }
+
+    .blog-hero-content p {
+        font-size: 20px;
+        line-height: 30px;
+        max-width: 500px;
+    }
+
+    .blog-intro {
+        padding: 60px 0;
+    }
+
+    .blog-social {
+        justify-content: center;
+        margin-bottom: 35px;
+    }
+
+    .blog-intro-content {
+        text-align: center;
+    }
+
+    .blog-intro-content h2 {
+        font-size: 34px;
+        line-height: 1.5;
+    }
+
+    .intro-line {
+        margin-bottom: 30px;
+    }
+
+}
+
+
+/* ===================================
+        RESPONSIVE (767px)
+=================================== */
+
+@media (max-width: 767px) {
+
+    .blog-hero {
+        padding: 120px 20px 45px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .blog-hero-content h1 {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+
+    .blog-hero-content p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .blog-hero-btn {
+        width: auto;
+        padding: 8px 18px;
+        font-size: 11px;
+    }
+
+    .blog-intro {
+        padding: 40px 0;
+    }
+
+    .blog-social {
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+    .blog-social a {
+        width: 34px;
+        height: 34px;
+    }
+
+    .blog-intro-content {
+        text-align: center;
+    }
+
+    .blog-intro-content h2 {
+        font-size: 24px;
+        line-height: 1.6;
+    }
+
+    .intro-line {
+        height: 5px;
+        margin-bottom: 20px;
+    }
+
+}
+
+/*===================================
+        IMAGE SECTION
+===================================*/
+
+.blog-image-one{
+
+    padding:60px 0;
+
+}
+
+.blog-img-box img{
+
+    width:100%;
+
+    display:block;
+
+}
+
+
+/*===================================
+        ARTICLE
+===================================*/
+
+.blog-article{
+
+    padding:70px 0;
+
+}
+
+.article-box h2{
+
+    font-size:40px;
+
+    font-weight:700;
+
+    margin-bottom:25px;
+
+    color:#111;
+
+}
+
+.article-box p{
+
+    font-size:20px;
+
+    color:#444;
+
+    line-height:36px;
+
+    margin-bottom:60px;
+
+}
+
+.article-box h2:last-of-type{
+
+    margin-top:20px;
+
+}
+
+
+/*=====================================
+        SECOND IMAGE
+=====================================*/
+
+.blog-image-two{
+
+    padding:60px 0;
+
+}
+
+.blog-image-two .blog-img-box{
+
+    overflow:hidden;
+
+}
+
+.blog-image-two img{
+
+    width:100%;
+    display:block;
+    transition:.4s;
+
+}
+
+.blog-image-two img:hover{
+
+    transform:scale(1.03);
+
+}
+
+
+/*=====================================
+        SECOND ARTICLE
+=====================================*/
+
+.blog-content-two{
+
+    padding:70px 0 90px;
+
+}
+
+.blog-content-two .article-box h2{
+
+    font-size:42px;
+
+    font-weight:700;
+
+    margin-bottom:22px;
+
+    color:#111;
+
+}
+
+.blog-content-two .article-box p{
+
+    font-size:19px;
+
+    line-height:35px;
+
+    color:#444;
+
+    margin-bottom:45px;
+
+}
+
+
+
+/*=====================================
+WHITE EDIT
+=====================================*/
+
+.white-edit{
+
+padding:90px 0;
+
+}
+
+.white-edit-title{
+
+text-align:center;
+margin-bottom:50px;
+
+}
+
+.white-edit-title h2{
+
+font-size:46px;
+font-weight:700;
+
+}
+
+.product-row{
+
+padding:0 80px;
+
+}
+
+.product-card{
+
+text-align:center;
+
+}
+
+.product-card img{
+
+width:100%;
+height:420px;
+object-fit:cover;
+transition:.4s;
+
+}
+
+.product-card img:hover{
+
+transform:scale(1.03);
+
+}
+
+.product-card h4{
+
+margin-top:20px;
+font-size:22px;
+
+}
+
+.product-card p{
+
+font-size:18px;
+color:#666;
+
+}
+
+.white-edit .carousel-control-prev,
+.white-edit .carousel-control-next{
+
+width:60px;
+
+}
+
+.white-edit .carousel-control-prev-icon,
+.white-edit .carousel-control-next-icon{
+
+
+border-radius:50%;
+padding:20px;
+filter: invert(1);
+background-color: transparent;
+
+}
+
+
+/*=====================================
+RELATED POSTS
+=====================================*/
+
+.related-posts{
+
+padding:80px 0 100px;
+
+}
+
+.related-posts h2{
+
+font-size:42px;
+margin-bottom:40px;
+
+}
+.blog-link{
+    display:block;
+    text-decoration:none;
+    color:inherit;
+}
+
+.blog-link:hover{
+    color:inherit;
+}
+
+.related-card img{
+
+width:100%;
+height:360px;
+object-fit:cover;
+
+}
+
+.related-card h3{
+
+margin:18px 0;
+font-size:30px;
+line-height:40px;
+
+}
+
+.related-card span{
+
+display:inline-block;
+
+border:1px solid #ccc;
+
+padding:6px 16px;
+
+border-radius:30px;
+
+font-size:13px;
+
+}
+
+/*=====================================
+        RESPONSIVE (992px)
+=====================================*/
+
+@media (max-width:992px){
+
+    /* IMAGE SECTION */
+    .blog-image-one{
+        padding:50px 0;
+    }
+
+    /* ARTICLE */
+    .blog-article{
+        padding:60px 0;
+    }
+
+    .article-box h2{
+        font-size:34px;
+        margin-bottom:20px;
+    }
+
+    .article-box p{
+        font-size:18px;
+        line-height:32px;
+        margin-bottom:45px;
+    }
+
+    /* SECOND IMAGE */
+    .blog-image-two{
+        padding:50px 0;
+    }
+
+    /* SECOND ARTICLE */
+    .blog-content-two{
+        padding:60px 0 70px;
+    }
+
+    .blog-content-two .article-box h2{
+        font-size:36px;
+        margin-bottom:18px;
+    }
+
+    .blog-content-two .article-box p{
+        font-size:18px;
+        line-height:32px;
+        margin-bottom:35px;
+    }
+
+    /* WHITE EDIT */
+    .white-edit{
+        padding:70px 0;
+    }
+
+    .white-edit-title{
+        margin-bottom:40px;
+    }
+
+    .white-edit-title h2{
+        font-size:38px;
+    }
+
+    .product-row{
+        padding:0;
+    }
+
+    .product-card img{
+        height:340px;
+    }
+
+    .product-card h4{
+        font-size:20px;
+    }
+
+    .product-card p{
+        font-size:16px;
+    }
+
+    /* RELATED POSTS */
+    .related-posts{
+        padding:70px 0 80px;
+    }
+
+    .related-posts h2{
+        font-size:36px;
+        margin-bottom:35px;
+    }
+
+    .related-card{
+        margin-bottom:35px;
+    }
+
+    .related-card img{
+        height:300px;
+    }
+
+    .related-card h3{
+        font-size:26px;
+        line-height:36px;
+    }
+
+}
+
+
+/*=====================================
+        RESPONSIVE (768px)
+=====================================*/
+
+@media (max-width:768px){
+
+    /* IMAGE SECTION */
+    .blog-image-one{
+        padding:40px 0;
+    }
+
+    /* ARTICLE */
+    .blog-article{
+        padding:45px 0;
+    }
+
+    .article-box h2{
+        font-size:28px;
+        margin-bottom:18px;
+    }
+
+    .article-box p{
+        font-size:16px;
+        line-height:28px;
+        margin-bottom:35px;
+    }
+
+    /* SECOND IMAGE */
+    .blog-image-two{
+        padding:40px 0;
+    }
+
+    /* SECOND ARTICLE */
+    .blog-content-two{
+        padding:45px 0 55px;
+    }
+
+    .blog-content-two .article-box h2{
+        font-size:30px;
+    }
+
+    .blog-content-two .article-box p{
+        font-size:16px;
+        line-height:28px;
+        margin-bottom:30px;
+    }
+
+    /* WHITE EDIT */
+    .white-edit{
+        padding:50px 0;
+    }
+
+    .white-edit-title{
+        margin-bottom:30px;
+    }
+
+    .white-edit-title h2{
+        font-size:30px;
+    }
+
+    .product-card{
+        margin-bottom:30px;
+    }
+
+    .product-card img{
+        height:260px;
+    }
+
+    .product-card h4{
+        font-size:18px;
+    }
+
+    .product-card p{
+        font-size:15px;
+    }
+
+    .white-edit .carousel-control-prev,
+    .white-edit .carousel-control-next{
+        display:none;
+    }
+
+    /* RELATED POSTS */
+    .related-posts{
+        padding:50px 0 60px;
+    }
+
+    .related-posts h2{
+        font-size:30px;
+        margin-bottom:30px;
+    }
+
+    .related-card{
+        margin-bottom:30px;
+    }
+
+    .related-card img{
+        height:250px;
+    }
+
+    .related-card h3{
+        font-size:22px;
+        line-height:32px;
+    }
+
+    .related-card span{
+        font-size:12px;
+        padding:5px 14px;
+    }
+
+}
+
+/*=================================
+            FOOTER
+==================================*/
+
+.footer-section
+{
+    padding:70px 75px 30px;
+    background:#F5F4F4;
+}
+
+.footer-section h4
+{
+    font-size:16px;
+    font-weight:600;
+    color:#262626;
+    margin-bottom:28px;
+}
+
+.footer-section ul
+{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.footer-section ul li
+{
+    margin-bottom:12px;
+}
+
+.footer-section ul li a
+{
+    text-decoration:none;
+    color:#737373;
+    font-size:14px;
+    line-height:22px;
+    letter-spacing:0.5px;
+}
+
+.footer-section ul li a:hover
+{
+    color:#000;
+}
+
+/* Newsletter */
+
+.newsletter
+{
+    display:flex;
+    justify-content:flex-end;
+}
+
+.newsletter input
+{
+    width:420px;
+    height:60px;
+    border:1px solid #E5E5E5;
+    border-right:none;
+    padding:0 18px;
+    outline:none;
+    font-size:16px;
+}
+
+.newsletter button
+{
+    width:62px;
+    height:60px;
+    border:none;
+    background:#262626;
+    color:#fff;
+    font-size:28px;
+    cursor:pointer;
+}
+
+/* Bottom Footer */
+
+.footer-bottom
+{
+    margin-top:70px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+.footer-bottom a
+{
+    text-decoration:none;
+    color:#737373;
+    font-size:13px;
+}
+
+.footer-bottom a:hover
+{
+    color:#000;
+}
+
+.copyright
+{
+    text-align:center;
+    margin-top:22px;
+    color:#737373;
+    font-size:14px;
+}

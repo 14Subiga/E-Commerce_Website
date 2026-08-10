@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Blog | Everlane</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Custom CSS -->
+     <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./blog.css">
+    
+
+</head>
+
+
+<body>
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- =========================
+         ANNOUNCEMENT BAR
+    ========================== -->
+
+    <section class="announcement-bar py-1">
+
+        <div class="container-fluid px-4">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-11 col-10 text-center">
+
+                    <div class="d-inline-flex align-items-center gap-1 announcement-text">
+
+                        <span>Get early access on launches and offers.</span>
+
+                        <a href="#">
+                            <span class="text-decoration-underline">
+                                Sign Up For Texts
+                            </span>
+                        </a>
+
+                        <span>→</span>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-1 col-2">
+
+                    <div class="d-flex justify-content-end align-items-center gap-2">
+
+                        <img src="./Landing_assets/language.png"
+                            class="flag"
+                            alt="USA Flag">
+
+                        <span class="currency-text">
+                            USD
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header>
+        <!-- Top Navigation -->
+        <div class="border-bottom">
+
+            <div class="container-fluid px-5">
+
+                <div class="row align-items-center">
+
+                    <!-- Left Menu -->
+                    <div class="col-4">
+
+                        <div class="d-flex align-items-center">
+
+                            <a href="./landing.html" class="nav-link active-link">Women</a>
+
+                            <!-- MEN DROPDOWN -->
+                            <div class="menu-wrapper">
+
+                                <a href="#" class="nav-link active-link">Men</a>
+
+                                <div class="mega-menu">
+
+                                    <div class="container">
+
+                                        <div class="row">
+
+                                            <!-- Highlights -->
+
+                                            <div class="col-lg-3">
+
+                                                <h6>HIGHLIGHTS</h6>
+
+                                                <ul>
+
+                                                    <li><a href="./listing.html">Shop All New Arrivals</a></li>
+                                                    <li><a href="./listing.html">The Gift Guide</a></li>
+                                                    <li><a href="./listing.html">New Bottoms</a></li>
+                                                    <li><a href="./listing.html">New Tops</a></li>
+                                                    <li><a href="./listing.html">T-Shirt Bundles</a></li>
+                                                    <li><a href="./listing.html">Under $100</a></li>
+
+                                                </ul>
+
+                                            </div>
+
+                                            <!-- Featured -->
+
+                                            <div class="col-lg-3">
+
+                                                <h6>FEATURED SHOPS</h6>
+
+                                                <ul>
+
+                                                    <li><a href="./listing.html">The Holiday Outfit Edit</a></li>
+                                                    <li><a href="./listing.html">Giftable Sweaters</a></li>
+                                                    <li><a href="./listing.html">Uniform & Capsule</a></li>
+                                                    <li><a href="./listing.html">The Performance Chino Shop</a></li>
+                                                    <li><a href="./listing.html">Top Rated Men's Clothing</a></li>
+
+                                                </ul>
+
+                                            </div>
+
+                                            <!-- Image 1 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="mega-image">
+
+                                                    <img src="./Landing_assets/menu1.png" alt="Holiday Outfit">
+
+                                                    <div class="mega-caption">
+
+                                                        <h5>The Holiday<br>Outfit Edit</h5>
+
+                                                        <span>→</span>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <!-- Image 2 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="mega-image">
+
+                                                    <img src="./Landing_assets/menu2.png" alt="Giftable Sweaters">
+
+                                                    <div class="mega-caption">
+
+                                                        <h5>Giftable<br>Sweaters</h5>
+
+                                                        <span>→</span>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <a href="./about.html" class="nav-link active-link">About</a>
+
+                            <a href="./blog.html" class="nav-link active-link">Everworld Stories</a>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Center Logo -->
+                    <div class="col-4 text-center">
+
+                        <h3 class="logo m-0">
+                            EVERLANE
+                        </h3>
+
+                    </div>
+
+                    <!-- Right Icons -->
+                    <div class="col-4 d-flex justify-content-end">
+
+                        <div class="right-menu d-flex align-items-center gap-4">
+
+                            <a href="javascript:void(0);" id="searchBtn">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+
+                            <a href="#"><i class="fa-regular fa-user"></i></a>
+
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+
+    
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="blog-hero">
+
+        <div class="hero-line"></div>
+
+        <h1>everworld</h1>
+
+        <p>
+            We're on a mission to clean up a dirty industry.
+            <br>
+            These are the people, stories, and ideas that will help us get there.
+        </p>
+
+    </section>
+
+
+
+    <!-- =========================
+            THE LATEST
+    ========================= -->
+    <section class="latest-section">
+
+        <div class="container-fluid">
+
+            <!-- Heading -->
+            <div class="row">
+
+                <div class="col-12">
+
+                    <div class="latest-header">
+
+                        <h2>The Latest</h2>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Blog Cards -->
+            <div class="row latest-row">
+
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-6 col-12">
+
+                    <div class="latest-card">
+
+                        <img src="./blog_assets/latest1.png" class="img-fluid" alt="Latest Blog">
+
+                        <div class="latest-content">
+
+                            <h3>How To Style Winter Whites</h3>
+
+                            <span>Style</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-lg-4 col-md-6 col-12">
+
+                    <div class="latest-card">
+
+                        <img src="./blog_assets/latest2.png" class="img-fluid" alt="Latest Blog">
+
+                        <div class="latest-content">
+
+                            <h3>We Won A Glossy Award</h3>
+
+                            <span>Transparency</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-lg-4 col-md-6 col-12">
+
+                    <div class="latest-card">
+
+                        <img src="./blog_assets/latest3.png" class="img-fluid" alt="Latest Blog">
+
+                        <div class="latest-content">
+
+                            <h3>Coordinate Your Style: Matching Outfits for Everyone</h3>
+
+                            <span>Style</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-lg-4 col-md-6 col-12">
+
+                    <div class="latest-card">
+
+                        <img src="./blog_assets/latest4.png" class="img-fluid" alt="Latest Blog">
+
+                        <div class="latest-content">
+
+                            <h3>Black Friday Fund 2023</h3>
+
+                            <span>Transparency</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 5 -->
+                <div class="col-lg-4 col-md-6 col-12">
+
+                    <div class="latest-card">
+
+                        <img src="./blog_assets/latest5.png" class="img-fluid" alt="Latest Blog">
+
+                        <div class="latest-content">
+
+                            <h3>What to Wear This Season: Holiday Outfits & Ideas</h3>
+
+                            <span>Style</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 6 -->
+                <div class="col-lg-4 col-md-6 col-12">
+
+                    <div class="latest-card">
+
+                        <img src="./blog_assets/latest6.png" class="img-fluid" alt="Latest Blog">
+
+                        <div class="latest-content">
+
+                            <h3>Thanksgiving Outfit Ideas</h3>
+
+                            <span>Style</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Button -->
+            <div class="row">
+
+                <div class="col-12 text-center">
+                    <a href="./blog-post.html" class="latest-btn">
+                        Load More Articles
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    
+
+
+
+    <!-- ================= IMAGE SECTION ================= -->
+
+    <section class="clean-banner">
+
+        <img src="./blog_assets/banner.png">
+
+    </section>
+
+
+
+    <!-- =========================
+            OUR PROGRESS
+    ========================= -->
+    <section class="progress-section">
+
+        <div class="container-fluid">
+
+            <!-- Heading -->
+            <div class="row">
+
+                <div class="col-12">
+
+                    <div class="progress-header">
+
+                        <h2>Our Progress</h2>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Progress Cards -->
+            <div class="row progress-row">
+
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-6 col-12">
+
+                    <div class="progress-card">
+
+                        <img src="./blog_assets/progress1.png"
+                            class="img-fluid"
+                            alt="Carbon Commitment">
+
+                        <div class="progress-content">
+
+                            <h3>Carbon Commitment</h3>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-lg-4 col-md-6 col-12">
+
+                    <div class="progress-card">
+
+                        <img src="./blog_assets/progress2.png"
+                            class="img-fluid"
+                            alt="Environmental Initiatives">
+
+                        <div class="progress-content">
+
+                            <h3>Environmental Initiatives</h3>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-lg-4 col-md-6 col-12">
+
+                    <div class="progress-card">
+
+                        <img src="./blog_assets/progress3.png"
+                            class="img-fluid"
+                            alt="Better Factories">
+
+                        <div class="progress-content">
+
+                            <h3>Better Factories</h3>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FOLLOW ================= -->
+
+    <section class="follow">
+
+        <div class="follow-content">
+
+            <h2>Follow us on social for more</h2>
+
+            <a href="https://www.instagram.com/" target="_blank">@YourStore Instagram</a>
+
+        </div>
+
+    </section>
+
+
+    
+    <!-- =========================
+            FOOTER
+    ========================= -->
+
+    <footer class="footer-section">
+
+        <div class="container-fluid">
+
+            <!-- Top Footer -->
+            <div class="row">
+
+                <!-- Account -->
+                <div class="col-lg-2 col-md-6 col-6">
+
+                    <h4>Account</h4>
+
+                    <ul>
+                        <li><a href="#">Log In</a></li>
+                        <li><a href="#">Sign Up</a></li>
+                        <li><a href="#">Redeem a Gift Card</a></li>
+                    </ul>
+
+                </div>
+
+                <!-- Company -->
+                <div class="col-lg-2 col-md-6 col-6">
+
+                    <h4>Company</h4>
+
+                    <ul>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="#">Environmental Initiatives</a></li>
+                        <li><a href="#">Factories</a></li>
+                        <li><a href="#">DEI</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">International</a></li>
+                        <li><a href="#">Accessibility</a></li>
+                    </ul>
+
+                </div>
+
+                <!-- Get Help -->
+                <div class="col-lg-2 col-md-6 col-6">
+
+                    <h4>Get Help</h4>
+
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Bulk Orders</a></li>
+                    </ul>
+
+                </div>
+
+                <!-- Connect -->
+                <div class="col-lg-2 col-md-6 col-6">
+
+                    <h4>Connect</h4>
+
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Affiliates</a></li>
+                        <li><a href="#">Our Stores</a></li>
+                    </ul>
+
+                </div>
+
+                <!-- Newsletter -->
+                <div class="col-lg-4 col-md-12 col-12">
+
+                    <form class="newsletter">
+
+                        <input type="email"
+                            placeholder="Email Address">
+
+                        <button type="submit">
+                            &#8594;
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+            <!-- Bottom Footer -->
+
+            <div class="footer-bottom">
+
+                <a href="#">Privacy Policy</a>
+
+                <a href="#">Terms of Service</a>
+
+                <a href="#">Do Not Sell or Share My Personal Information</a>
+
+                <a href="#">CS Supply Chain Transparency</a>
+
+                <a href="#">Vendor Code of Conduct</a>
+
+                <a href="#">Sitemap Pages</a>
+
+                <a href="#">Sitemap Products</a>
+
+            </div>
+
+            <p class="copyright">
+                © 2023 All Rights Reserved
+            </p>
+
+        </div>
+
+    </footer>
+</body>
+</html>
