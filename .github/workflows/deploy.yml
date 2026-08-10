@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages for E-Commerce
+name: Deploy to GitHub Pages for E-Commerce_Website
 
 on:
   push:
