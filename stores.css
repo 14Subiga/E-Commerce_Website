@@ -192,3 +192,312 @@
     color:#737373;
     font-size:14px;
 }
+
+
+
+
+/* =========================================================
+   COMPLETE DARK MODE
+========================================================= */
+
+/* =========================
+   BODY
+========================= */
+
+.dark {
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.dark header {
+    background-color: #000;
+    color: #fff;
+    border-color: #333 !important;
+}
+
+.dark header a {
+    color: #fff !important;
+}
+
+.dark header .nav-link {
+    color: #fff !important;
+}
+
+.dark header .logo {
+    color: #fff !important;
+}
+
+.dark header i {
+    color: #fff !important;
+}
+
+
+/* =========================
+   MEN MEGA MENU
+========================= */
+
+.dark .mega-menu {
+    background-color: #111;
+    color: #fff;
+}
+
+.dark .mega-menu h6 {
+    color: #fff !important;
+}
+
+.dark .mega-menu a {
+    color: #fff !important;
+}
+
+.dark .mega-menu a:hover {
+    color: #ccc !important;
+}
+
+.dark .mega-caption h5 {
+    color: #fff !important;
+}
+
+.dark .mega-caption span {
+    color: #fff !important;
+}
+
+
+/* =========================
+   MODE BUTTON
+========================= */
+
+.mode-btn {
+    padding: 6px;
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.dark .mode-btn {
+    color: #fff;
+}
+
+
+/* =========================
+   STORES SECTION
+========================= */
+
+.dark .stores {
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* =========================
+   SECTION HEADING
+========================= */
+
+.dark .section-heading {
+    color: #fff;
+}
+
+.dark .section-heading h2 {
+    color: #fff !important;
+}
+
+.dark .section-heading p {
+    color: #fff !important;
+}
+
+
+/* =========================
+   STORE CARD
+========================= */
+
+.dark .store-card {
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* =========================
+   STORE INFORMATION
+========================= */
+
+.dark .store-info {
+    color: #fff;
+}
+
+.dark .store-info span {
+    color: #fff !important;
+}
+
+.dark .store-info h3 {
+    color: #fff !important;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.dark .footer-section {
+    background-color: #111;
+    color: #fff;
+}
+
+
+/* Footer headings */
+
+.dark .footer-section h4 {
+    color: #fff !important;
+}
+
+
+/* Footer list */
+
+.dark .footer-section ul li a {
+    color: #ccc !important;
+}
+
+.dark .footer-section ul li a:hover {
+    color: #fff !important;
+}
+
+
+/* =========================
+   NEWSLETTER
+========================= */
+
+.dark .newsletter {
+    color: #fff;
+}
+
+.dark .newsletter input {
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+.dark .newsletter input::placeholder {
+    color: #aaa;
+}
+
+.dark .newsletter button {
+    background-color: #fff;
+    color: #000;
+}
+
+.dark .newsletter button:hover {
+    background-color: #ddd;
+}
+
+
+/* =========================
+   FOOTER BOTTOM
+========================= */
+
+.dark .footer-bottom a {
+    color: #ccc !important;
+}
+
+.dark .footer-bottom a:hover {
+    color: #fff !important;
+}
+
+
+/* =========================
+   COPYRIGHT
+========================= */
+
+.dark .copyright {
+    color: #aaa !important;
+}
+
+
+/* =========================
+   GENERAL TEXT
+========================= */
+
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6 {
+    color: #fff !important;
+}
+
+.dark p {
+    color: #fff !important;
+}
+
+.dark span {
+    color: #fff;
+}
+
+
+/* =========================
+   LINKS
+========================= */
+
+.dark a {
+    color: #fff;
+}
+
+.dark a:hover {
+    color: #ccc;
+}
+
+
+/* =========================
+   BOOTSTRAP BORDER
+========================= */
+
+.dark .border-bottom {
+    border-color: #333 !important;
+}
+
+.dark .border-top {
+    border-color: #333 !important;
+}
+
+
+/* =========================
+   FORM ELEMENTS
+========================= */
+
+.dark input,
+.dark textarea,
+.dark select {
+    background-color: #111;
+    color: #fff;
+    border-color: #555;
+}
+
+.dark input::placeholder,
+.dark textarea::placeholder {
+    color: #aaa;
+}
+
+
+/* =========================
+   ICONS
+========================= */
+
+.dark i {
+    color: #fff;
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+.dark button {
+    color: #fff;
+}
+
